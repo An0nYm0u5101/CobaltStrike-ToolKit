@@ -11,7 +11,7 @@
 #      - To kill CS: docker kill war_games
 #    NOTE: to go interactive we need to bypass the ENTRYPOINT
 #      - docker run -ti --entrypoint "" cobaltstrike/cs bash
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 # Dockerfile metadata
 MAINTAINER Killswitch-GUI
